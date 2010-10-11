@@ -1,0 +1,138 @@
+--- 
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.twitter.com:80/1/users/show/8135682.json
+    body: 
+    headers: 
+      accept: 
+      - "*/*; q=0.5, application/xml"
+      accept-encoding: 
+      - gzip, deflate
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 404
+      message: Not Found
+    headers: 
+      x-ratelimit-reset: 
+      - "1286828990"
+      x-transaction: 
+      - 1286825709-74978-28486
+      x-ratelimit-limit: 
+      - "150"
+      last-modified: 
+      - Mon, 11 Oct 2010 19:35:09 GMT
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      content-type: 
+      - application/json; charset=utf-8
+      connection: 
+      - close
+      date: 
+      - Mon, 11 Oct 2010 19:35:09 GMT
+      server: 
+      - hi
+      x-ratelimit-remaining: 
+      - "148"
+      x-ratelimit-class: 
+      - api
+      content-length: 
+      - "88"
+      x-revision: 
+      - DEV
+      content-encoding: 
+      - gzip
+      set-cookie: 
+      - k=76.99.114.1.1286825709570878; path=/; expires=Mon, 18-Oct-10 19:35:09 GMT; domain=.twitter.com
+      - guest_id=128682570957395879; path=/; expires=Wed, 10 Nov 2010 19:35:09 GMT
+      - _twitter_sess=BAh7CDoPY3JlYXRlZF9hdGwrCAcQypwrAToHaWQiJWRjY2Q4NTk4NTI5MDhj%250ANzVmODBiMjA3NzE4N2VhMzk4IgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy%250AOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--33bec675eabf345d6fbebee506a0c6b5c01b3b50; domain=.twitter.com; path=/
+      status: 
+      - 404 Not Found
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      vary: 
+      - Accept-Encoding
+      pragma: 
+      - no-cache
+    body: !binary |
+      H4sIAAAAAAAAA6tWSi0qyi9SslLyyy9RSMsvzUtR0lEqSi0sTS0uAYrqG+qX
+      FqcWFesXZ+SX65tbWBoZmxgYmgIZBsZGJuamelnF+XlKtQCmKGtORwAAAA==
+
+    http_version: "1.1"
+- !ruby/struct:VCR::HTTPInteraction 
+  request: !ruby/struct:VCR::Request 
+    method: :get
+    uri: http://api.twitter.com:80/1/users/show/8135682.json
+    body: 
+    headers: 
+      accept: 
+      - "*/*; q=0.5, application/xml"
+      accept-encoding: 
+      - gzip, deflate
+  response: !ruby/struct:VCR::Response 
+    status: !ruby/struct:VCR::ResponseStatus 
+      code: 200
+      message: OK
+    headers: 
+      x-ratelimit-reset: 
+      - "1286828990"
+      etag: 
+      - "\"050ad587e2c6c2de0dd73bccf9df5063\"-gzip"
+      expires: 
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      last-modified: 
+      - Mon, 11 Oct 2010 19:35:42 GMT
+      x-ratelimit-limit: 
+      - "150"
+      x-transaction: 
+      - 1286825742-17305-50621
+      connection: 
+      - close
+      content-type: 
+      - application/json; charset=utf-8
+      x-runtime: 
+      - "0.01107"
+      server: 
+      - hi
+      date: 
+      - Mon, 11 Oct 2010 19:35:42 GMT
+      content-length: 
+      - "649"
+      x-ratelimit-class: 
+      - api
+      x-ratelimit-remaining: 
+      - "147"
+      content-encoding: 
+      - gzip
+      x-revision: 
+      - DEV
+      set-cookie: 
+      - k=76.99.114.1.1286825742838793; path=/; expires=Mon, 18-Oct-10 19:35:42 GMT; domain=.twitter.com
+      - guest_id=1286825742924249; path=/; expires=Wed, 10 Nov 2010 19:35:42 GMT
+      - _twitter_sess=BAh7CDoPY3JlYXRlZF9hdGwrCE2SypwrAToHaWQiJTY3MDhlZDk1NDAxOGQw%250AMjRmZTVkNDFlOTMzZmViZTRmIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy%250AOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--ffaaab24b3754a4f9631fdecf9f5cb7c6db7fb8e; domain=.twitter.com; path=/
+      vary: 
+      - Accept-Encoding
+      cache-control: 
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      status: 
+      - 200 OK
+      pragma: 
+      - no-cache
+    body: !binary |
+      H4sIAAAAAAAAA21TWY/TMBD+K8YPCERojjZt07e9eGLFartIvFmTZJKYOnax
+      nWYXxH9nTNVjj7wknoxnvmPmD3edGQUoJaRWUqPosZbAVw0ohxHfWtNIhWJw
+      KEqoNq01g66F7KFFvvJ2OMtxssYSrCiNrdGKyihj+Yovs+I6v+ERb4xSZkTr
+      6NegPV+lyyTiNbrKyq2XRlMy1L3U0nnKYrdQsW9r9iNi1KG10Dv2hfrcwgYt
+      u7MmYh0hcux+KJ+Y0ewepHIRG42l4Ch9xy5UY6k8ZSq5Q8ekZg9oqQOoiJUW
+      wXcUvVqvI9aqAWvmDYPQ99KYzb6FMuFiJ0PFBt8RDefBkxxHFsWyOGnwUiMx
+      WEW0Ou+3qzh2Ez/Kvp1Upo8hTrNlviySIsni/7kuJjj94ZXHZTtpZROEsxJ1
+      fZItnUVcBZHqY4iErIz2VpaDN6QwaigV1q98PMN38GeaZ4tszt/M8XQ+1mhg
+      ZwYr/Yn6NOLP+I3jOPEWdxa3xvqJsW1MdbXxspEVBIvdK0QeH/0Jy81sluZ0
+      R4Fu6Yyavls0Jz77kauCd0QfCARfD5pdDC1LM5bMV+l0lWfsU0IPy5JkcUbs
+      DUcgObPkWZ6L00U+m8/yLF4ki9m8ENrYHtTk57YNAM2eEJW666SCGtW2kxCx
+      O9TaPakdaFqjw9ALi78GdF44DLq9kID2bnOU4DrJLvN8j9pj5c9M3KElIc8C
+      XvYofhtNHvEbCFtDA04x9uH7mr1nV6Chho9hZkkw1EJDH1KDRT0+Bmv2gQcK
+      GMu+Ak1VJ25J7LY7YpfBiReID6tOB3VEXhRXV9Mp3ZOEcJlO8/kyowHxlTBN
+      45B4f6aNT5K//wBPnij0dQQAAA==
+
+    http_version: "1.1"

@@ -1,1 +1,18 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{ 
+  "name": "VCR: Record HTTP responses for testing",
+  "sections": [ 
+    { "section": "title" },
+    { "section": "about_me" },
+    { "section": "why" },
+    { "section": "example_with_no_vcr"},
+    { "section": "install" },
+    { "section": "test_unit" },
+    { "section": "how" },
+    { "section": "erb" },
+    { "section": "rspec" },
+    { "section": "webmock" },
+    { "section": "diff_cassettes_same_call" },
+    { "section": "request_matching" },
+    { "section": "best_practices" }
+  ]
+}
