@@ -1,9 +1,9 @@
-!SLIDE bullets incremental
+!SLIDE bullets 
 # How it works #
 * A cassette is a YAML fixture
 * The first run of the test checks to see if the cassette exists
 * If it does, it uses it
-* If it doesn't, it records a new cassette (i.e. makes the HTTP call)
+* If it doesn't, it records a new cassette<br />(i.e. makes the HTTP call)
 
 !SLIDE
 # The cassette is plain YAML #

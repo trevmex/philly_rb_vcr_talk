@@ -55,7 +55,7 @@
       end
     end
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 # Works with other test frameworks, too! #
 * shoulda
 * cucumber

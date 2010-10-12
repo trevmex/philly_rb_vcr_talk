@@ -1,10 +1,7 @@
 !SLIDE
-# VCR can help us out, because... #
+# VCR can help us out, because it uses... #
 
-!SLIDE center
-# VCR uses... #
-
-!SLIDE center full-page
+!SLIDE full-page
 ![cassettes][cassettesimageref]
 
 [cassettesimageref]: cassettes.jpg "cassettes"
@@ -12,7 +9,7 @@
 !SLIDE center
 # to record HTTP responses! #
 
-!SLIDE bullets incremental
+!SLIDE bullets 
 # Two steps: #
 * Setup your VCR
 * Use a cassette
@@ -52,4 +49,3 @@
 * <tt>Finished in <b>0.002326</b> seconds.</tt>
 * Still works even if the test user is deleted.
 * Still works even if the test user's data changes
-* The HTTP call is done <b>once</b>, and stored in a cassette for all future runs.

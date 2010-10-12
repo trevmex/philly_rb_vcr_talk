@@ -1,5 +1,5 @@
 !SLIDE
-# You can even use ERB to pass in variables to your cassettes #
+# You can use ERB to pass in variables to your cassettes #
 
 !SLIDE 
 # Add some ERB hooks to your cassette: #

@@ -1,5 +1,6 @@
-!SLIDE bullets incremental
+!SLIDE bullets 
 # About Me #
-* I used to be a Rails dev at Bank of America 
-* Next week I will be a front end dev at CIM
+* Taught English in rural Japan for 4 years
+* Became a Rails dev at Bank of America
+* Starting a new job at CIM next week
 * _I also like to take notes_ (http://www.trevmex.com/)

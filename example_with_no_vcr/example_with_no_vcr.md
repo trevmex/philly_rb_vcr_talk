@@ -33,4 +33,3 @@
 * <tt>Finished in <b>4.362348</b> seconds.</tt>
 * What if the test user is deleted?
 * What if the test user changes their name?
-* HTTP calls in tests are bad mojo

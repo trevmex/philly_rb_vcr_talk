@@ -11,8 +11,9 @@
     { "section": "erb" },
     { "section": "rspec" },
     { "section": "webmock" },
-    { "section": "diff_cassettes_same_call" },
     { "section": "request_matching" },
-    { "section": "best_practices" }
+    { "section": "diff_cassettes_same_call" },
+    { "section": "best_practices" },
+    { "section": "conclusion" }
   ]
 }
